@@ -1,0 +1,9 @@
+headers = ncurses.h
+headerFilter = *
+
+staticLibraries = libncurses.a
+libraryPaths = /usr/local/opt/ncurses/lib
+
+# TODO: explore statically link remaining dependencies
+#compilerOpts = -framework Foundation -framework CoreFoundation
+#linkerOpts.osx = -framework Foundation -framework CoreFoundation
